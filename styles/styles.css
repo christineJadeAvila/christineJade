@@ -27,9 +27,43 @@ body {
 
 }
 
-.introduction {
+.navigationBar {
+   width: 30%;
+   height: 50px;
+
+   border: black solid 1px;
+   border-radius: 10px;
+
+   position: fixed;
+
+   top: 10px;
+   left: 35%;
+
+   background-color: white;
+
+   
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 1s;
+
+   display: flex;
+   justify-content: center;
+
+   
    
 }
+
+.navigationBar a {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navigationBar a:active {
+    color: #00A3FF;
+}
+
+
+
 
 #myName {
     font-size: 70px;
