@@ -9,6 +9,10 @@
     background-color: #9FCCC1;
 }
 
+.introduction {
+    margin-top: 100px;
+}
+
 body {
     /* --dot-bg: white;
     --dot-color: blue;
@@ -63,7 +67,7 @@ body {
 }
 
 .projects {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .project-showcase {
@@ -167,6 +171,12 @@ body {
     width: 70px;
     padding: 10px 20px;
     color: white;
+    cursor: pointer;
+} 
+
+.visitButton:hover    {
+    transform: scale(0.98);
+
 }
 
 .canTvisitButton {
